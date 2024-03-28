@@ -1,0 +1,13 @@
+div{
+    height:100px;
+    width:100px;
+    border-top:3px solid purple;
+    border-radius:50%;
+    animation: spinner 1s linear infinite;
+  }
+  
+  @keyframes spinner{
+    100%{
+    transform:rotate(360deg)
+    }
+  }
